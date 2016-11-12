@@ -27,6 +27,9 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="quickstart" target="1.5" />
+      <module name="testweb" target="1.5" />
+      <module name="testweb2" target="1.5" />
+      <module name="testweb3" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
