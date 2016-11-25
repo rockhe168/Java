@@ -22,10 +22,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="quickstart" />
+        <module name="mybatisdemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="mybatisdemo" target="1.5" />
       <module name="quickstart" target="1.5" />
       <module name="testweb" target="1.5" />
       <module name="testweb2" target="1.5" />
