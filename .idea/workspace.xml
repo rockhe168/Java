@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f67eb888-d429-42e9-8890-6a4821755c77" name="Default" comment="init project">
+    <list default="true" id="f67eb888-d429-42e9-8890-6a4821755c77" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quickstart/target/classes/com/rock/App.class" afterPath="$PROJECT_DIR$/quickstart/target/classes/com/rock/App.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quickstart/target/test-classes/com/rock/AppTest.class" afterPath="$PROJECT_DIR$/quickstart/target/test-classes/com/rock/AppTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quickstart/quickstart.iml" afterPath="$PROJECT_DIR$/quickstart/quickstart.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quickstart/src/main/java/com/rock/App.java" afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/rock/App.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testweb/testweb.iml" afterPath="$PROJECT_DIR$/testweb/testweb.iml" />
     </list>
     <ignored path="Java.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,8 +62,8 @@
       <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/quickstart/src/main/java/com/rock/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="216">
+              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -877,7 +873,7 @@
       <workItem from="1478921879348" duration="1151000" />
       <workItem from="1478936368320" duration="5744000" />
       <workItem from="1479870013910" duration="497000" />
-      <workItem from="1480063325691" duration="39000" />
+      <workItem from="1480063325691" duration="82000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1478949665086</created>
@@ -886,11 +882,18 @@
       <option name="project" value="LOCAL" />
       <updated>1478949665086</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init project">
+      <created>1480063382678</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1480063382678</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7931000" />
+    <option name="totallyTimeSpent" value="7974000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="142" width="1696" height="1066" extended-state="6" />
@@ -1064,8 +1067,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/quickstart/src/main/java/com/rock/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        <state relative-caret-position="216">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
           <folding />
         </state>
       </provider>
