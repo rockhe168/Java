@@ -16,7 +16,6 @@ import java.util.List;
  */
 
 @Controller
-
 @RequestMapping("/user")
 public class UserController {
     private Logger log = Logger.getLogger(UserController.class);

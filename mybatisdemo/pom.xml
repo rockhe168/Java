@@ -8,9 +8,12 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>mybatisdemo</artifactId>
-    <packaging>war</packaging>
+    <packaging>pom</packaging>
     <name>mybatisdemo Maven Webapp</name>
     <url>http://maven.apache.org</url>
+    <modules>
+        <module>../annotation</module>
+    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
