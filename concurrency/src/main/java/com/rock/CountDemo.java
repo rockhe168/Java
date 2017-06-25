@@ -12,7 +12,7 @@ public class CountDemo {
         final Thread thread1= new Thread(){
             @Override
             public void run() {
-                for (int i= 1 ;i<1000000;i++)
+                for (int i= 0 ;i<1000000;i++)
                 {
                     MySharedStaticCount.add();
                 }
@@ -23,7 +23,7 @@ public class CountDemo {
         Thread thread2 = new Thread(){
             @Override
             public void run() {
-                for (int i= 1 ;i<1000000;i++)
+                for (int i= 0 ;i<1000000;i++)
                 {
                     MySharedStaticCount.add();
                 }
@@ -51,7 +51,7 @@ public class CountDemo {
         Thread thread3 =new Thread(){
             @Override
             public void run() {
-                for (int i=1;i<1000000;i++) {
+                for (int i=0;i<1000000;i++) {
                     singletonCount.add(1);
                 }
             }
@@ -61,7 +61,7 @@ public class CountDemo {
         Thread thread4 = new Thread() {
             @Override
             public void run() {
-                for (int i=1;i<1000000;i++){
+                for (int i=0;i<1000000;i++){
                     singletonCount.add(2);
                 }
             }
@@ -78,6 +78,40 @@ public class CountDemo {
             System.out.println("MySingletonCount 执行完成 i--->=" + singletonCount.getCount()+"--->并发导致结果相差:"+(3000000-singletonCount.getCount()));
         }else{
             System.out.println("MySingletonCount 执行未完成 i--->=" + singletonCount.getCount()+"--->并发导致结果相差:"+(3000000-singletonCount.getCount()));
+        }
+
+        //安全类
+        final MySafeCount safeCount = new MySafeCount();
+        Thread thread5 =new Thread(){
+            @Override
+            public void run() {
+                for (int i=0;i<1000000;i++) {
+                    safeCount.add(1);
+                }
+            }
+        };
+        thread5.start();
+
+        Thread thread6 = new Thread() {
+            @Override
+            public void run() {
+                for (int i=0;i<1000000;i++){
+                    safeCount.add(2);
+                }
+            }
+        };
+        thread6.start();
+        try {
+
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        if(thread5.getState()== Thread.State.TERMINATED && thread6.getState() == Thread.State.TERMINATED) {
+            System.out.println("MySafeCount 执行完成 i--->=" + safeCount.getCount()+"--->并发导致结果相差:"+(3000000-safeCount.getCount()));
+        }else{
+            System.out.println("MySafeCount 执行未完成 i--->=" + safeCount.getCount()+"--->并发导致结果相差:"+(3000000-safeCount.getCount()));
         }
     }
 }
