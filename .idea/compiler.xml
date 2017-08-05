@@ -8,16 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="annotation" />
         <module name="annotations" />
-        <module name="concurrency" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="annotation" target="1.5" />
-      <module name="annotations" target="1.5" />
-      <module name="concurrency" target="1.5" />
-      <module name="mybatisdemo" target="1.5" />
-      <module name="quickstart" target="1.5" />
-      <module name="testweb" target="1.5" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="concurrency" target="1.8" />
+      <module name="java8" target="1.8" />
+      <module name="mybatisdemo" target="1.8" />
+      <module name="quickstart" target="1.8" />
+      <module name="testweb" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

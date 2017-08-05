@@ -1,4 +1,4 @@
-package com.rock.model;
+package com.rock.java8.model;
 
 /**
  * Created by rock on 2017/7/16.

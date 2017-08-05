@@ -1,7 +1,7 @@
 package com.rock.service.impl;
 
 import com.rock.dao.UserDao;
-import com.rock.model.User;
+import com.rock.java8.model.User;
 import com.rock.service.UserService;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

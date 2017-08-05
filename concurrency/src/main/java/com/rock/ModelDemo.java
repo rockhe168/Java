@@ -1,6 +1,6 @@
 package com.rock;
 
-import com.rock.model.UserInfo;
+import com.rock.java8.model.UserInfo;
 
 import static java.lang.System.out;
 

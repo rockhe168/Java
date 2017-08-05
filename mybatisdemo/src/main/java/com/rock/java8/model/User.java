@@ -1,4 +1,4 @@
-package com.rock.model;
+package com.rock.java8.model;
 
 import java.util.Date;
 
