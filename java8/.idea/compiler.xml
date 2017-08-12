@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <bytecodeTargetLevel>
-      <module name="concurrency" target="1.5" />
+    <bytecodeTargetLevel target="1.8">
       <module name="java8" target="1.5" />
-      <module name="mybatisdemo" target="1.5" />
-      <module name="quickstart" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

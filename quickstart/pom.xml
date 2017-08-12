@@ -16,6 +16,7 @@
     <modules>
         <module>../mybatisdemo</module>
         <module>../concurrency</module>
+        <module>../java8</module>
     </modules>
 
     <properties>

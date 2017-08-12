@@ -6,16 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="annotation" />
         <module name="annotations" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
+      <module name="annotations" target="1.8" />
       <module name="concurrency" target="1.8" />
       <module name="java8" target="1.8" />
       <module name="mybatisdemo" target="1.8" />
-      <module name="quickstart" target="1.8" />
-      <module name="testweb" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
