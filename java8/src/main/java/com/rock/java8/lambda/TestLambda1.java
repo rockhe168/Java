@@ -49,13 +49,93 @@ public class TestLambda1 {
     }
 
     @Test
-    public void test1(){
+    public void test(){
+        System.out.println("获取公司中年龄小于 35 的员工信息--->");
+        //获取公司中年龄小于 35 的员工信息
         List<Employee> list =filterEmployeeAge(employeeList);
         for (Employee emp : list) {
+            System.out.println(emp);
+        }
+        System.out.println("获取公司中工资大于 5000 的员工信息--->");
+        //获取公司中工资大于 5000 的员工信息
+        List<Employee> list2 =filterEmployeeSalary(employeeList);
+        for (Employee emp : list2) {
             System.out.println(emp);
         }
     }
 
 
+    public List<Employee> filterEmployee(List<Employee> emps, MyPredicate<Employee> mp){
+        List<Employee> list = new ArrayList<>();
+        for (Employee emp : emps) {
+            if(mp.filter(emp)){
+                list.add(emp);
+            }
+        }
+        return list;
+    }
+
+    //优化方式一：策略设计模式
+    @Test
+    public void test1(){
+        List<Employee> list = filterEmployee(this.employeeList, new FilterEmployeeForAge());
+        for (Employee employee : list) {
+            System.out.println(employee);
+        }
+
+        System.out.println("------------------------------------------");
+
+        List<Employee> list2 = filterEmployee(this.employeeList, new FilterEmployeeForSalary());
+        for (Employee employee : list2) {
+            System.out.println(employee);
+        }
+    }
+
+
+    //优化方式二：匿名内部类
+    @Test
+    public void test2(){
+        List<Employee> list = filterEmployee(this.employeeList, new MyPredicate<Employee>() {
+            @Override
+            public boolean filter(Employee employee) {
+                return employee.getAge() <= 30;
+            }
+        });
+        for (Employee emp : list){
+            System.out.println(emp);
+        }
+        System.out.println("------------------------------------------");
+
+        List<Employee> list2 = filterEmployee(this.employeeList, new MyPredicate<Employee>() {
+            @Override
+            public boolean filter(Employee employee) {
+                return employee.getAge() >= 5000;
+            }
+        });
+        for (Employee emp : list2){
+            System.out.println(emp);
+        }
+    }
+
+    //优化方式三：Lambda 表达式
+    @Test
+    public void test3(){
+        List list = filterEmployee(this.employeeList,(e)->e.getAge()<=35);
+        list.forEach(System.out::println);
+        System.out.println("------------------------------------------");
+        List list2 =filterEmployee(this.employeeList,(e)->e.getSalary()>=5000);
+        list2.forEach(System.out::println);
+    }
+
+    //优化方式四：Stream API
+    @Test
+    public void test4(){
+        this.employeeList.stream()
+                .filter(p->p.getAge() <= 30)
+                .forEach(System.out::println);
+        System.out.println("------------------------------------------");
+
+        this.employeeList.stream().filter(p->p.getSalary()>=5000).forEach(System.out::println);
+    }
 
 }
