@@ -1,60 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad153028-c295-45e1-b215-4ec5af4f1b2a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collection/collection.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/exception/exception.iml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java8/target/classes/com/rock/java8/exer/TestLambda.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java8/target/classes/com/rock/java8/model/Employee.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java8/target/classes/com/rock/java8/model/UserInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java8/target/classes/com/rock/java8/streamapi/TestStreamaAPI.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/annotations/target/classes/com/rock/App.class" afterPath="$PROJECT_DIR$/annotations/target/classes/com/rock/App.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/annotations/target/classes/com/rock/TableCreator.class" afterPath="$PROJECT_DIR$/annotations/target/classes/com/rock/TableCreator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/annotations/target/classes/com/rock/database/Constraints.class" afterPath="$PROJECT_DIR$/annotations/target/classes/com/rock/database/Constraints.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/annotations/target/classes/com/rock/database/DBTable.class" afterPath="$PROJECT_DIR$/annotations/target/classes/com/rock/database/DBTable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/annotations/target/classes/com/rock/database/SQLInteger.class" afterPath="$PROJECT_DIR$/annotations/target/classes/com/rock/database/SQLInteger.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/annotations/target/classes/com/rock/database/SQLString.class" afterPath="$PROJECT_DIR$/annotations/target/classes/com/rock/database/SQLString.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/annotations/target/classes/com/rock/model/Member.class" afterPath="$PROJECT_DIR$/annotations/target/classes/com/rock/model/Member.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/annotations/target/test-classes/com/rock/AppTest.class" afterPath="$PROJECT_DIR$/annotations/target/test-classes/com/rock/AppTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java8/target/classes/com/rock/java8/App.class" afterPath="$PROJECT_DIR$/java8/target/classes/com/rock/java8/App.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java8/target/classes/com/rock/java8/lambda/FilterEmployeeForAge.class" afterPath="$PROJECT_DIR$/java8/target/classes/com/rock/java8/lambda/FilterEmployeeForAge.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java8/target/classes/com/rock/java8/lambda/FilterEmployeeForSalary.class" afterPath="$PROJECT_DIR$/java8/target/classes/com/rock/java8/lambda/FilterEmployeeForSalary.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java8/target/classes/com/rock/java8/lambda/TestLambda1$1.class" afterPath="$PROJECT_DIR$/java8/target/classes/com/rock/java8/lambda/TestLambda1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java8/target/classes/com/rock/java8/lambda/TestLambda1$2.class" afterPath="$PROJECT_DIR$/java8/target/classes/com/rock/java8/lambda/TestLambda1$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java8/target/classes/com/rock/java8/lambda/TestLambda1.class" afterPath="$PROJECT_DIR$/java8/target/classes/com/rock/java8/lambda/TestLambda1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java8/target/classes/com/rock/java8/lambda/TestMethodRef.class" afterPath="$PROJECT_DIR$/java8/target/classes/com/rock/java8/lambda/TestMethodRef.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java8/src/main/java/com/rock/java8/App.java" afterPath="$PROJECT_DIR$/java8/src/main/java/com/rock/java8/App.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java8/src/main/java/com/rock/java8/lambda/FilterEmployeeForAge.java" afterPath="$PROJECT_DIR$/java8/src/main/java/com/rock/java8/lambda/FilterEmployeeForAge.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java8/src/main/java/com/rock/java8/lambda/FilterEmployeeForSalary.java" afterPath="$PROJECT_DIR$/java8/src/main/java/com/rock/java8/lambda/FilterEmployeeForSalary.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java8/src/main/java/com/rock/java8/lambda/TestLambda1.java" afterPath="$PROJECT_DIR$/java8/src/main/java/com/rock/java8/lambda/TestLambda1.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java8/src/main/java/com/rock/java8/lambda/TestMethodRef.java" afterPath="$PROJECT_DIR$/java8/src/main/java/com/rock/java8/lambda/TestMethodRef.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java8/src/main/java/com/rock/java8/streamapi/TestStreamAPI.java" afterPath="$PROJECT_DIR$/java8/src/main/java/com/rock/java8/streamapi/TestStreamAPI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java8/src/main/java/com/rock/java8/streamapi/TestStreamAPI1.java" afterPath="$PROJECT_DIR$/java8/src/main/java/com/rock/java8/streamapi/TestStreamAPI1.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java8/src/main/java/com/rock/java8/streamapi/TestStreamAPI2.java" afterPath="$PROJECT_DIR$/java8/src/main/java/com/rock/java8/streamapi/TestStreamAPI2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java8/src/main/java/com/rock/java8/streamapi/TestStreamAPI3.java" afterPath="$PROJECT_DIR$/java8/src/main/java/com/rock/java8/streamapi/TestStreamAPI3.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java8/src/main/java/com/rock/java8/streamapi/TestTransaction.java" afterPath="$PROJECT_DIR$/java8/src/main/java/com/rock/java8/streamapi/TestTransaction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatisdemo/src/main/java/com/rock/dao/UserDao.java" afterPath="$PROJECT_DIR$/mybatisdemo/src/main/java/com/rock/dao/UserDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatisdemo/src/main/java/com/rock/service/UserService.java" afterPath="$PROJECT_DIR$/mybatisdemo/src/main/java/com/rock/service/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatisdemo/src/main/java/com/rock/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/mybatisdemo/src/main/java/com/rock/service/impl/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatisdemo/src/main/resources/mapping/UserMapper.xml" afterPath="$PROJECT_DIR$/mybatisdemo/src/main/resources/mapping/UserMapper.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/concurrency/src/main/java/com/rock/App.java" afterPath="$PROJECT_DIR$/concurrency/src/com/rock/App.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/concurrency/src/main/java/com/rock/CountDemo.java" afterPath="$PROJECT_DIR$/concurrency/src/com/rock/CountDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/concurrency/src/main/java/com/rock/ModelDemo.java" afterPath="$PROJECT_DIR$/concurrency/src/com/rock/ModelDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/concurrency/src/main/java/com/rock/MySafeCount.java" afterPath="$PROJECT_DIR$/concurrency/src/com/rock/MySafeCount.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/concurrency/src/main/java/com/rock/MySharedStaticCount.java" afterPath="$PROJECT_DIR$/concurrency/src/com/rock/MySharedStaticCount.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/concurrency/src/main/java/com/rock/MySingletonCount.java" afterPath="$PROJECT_DIR$/concurrency/src/com/rock/MySingletonCount.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/concurrency/src/main/java/com/rock/java8/model/UserInfo.java" afterPath="$PROJECT_DIR$/concurrency/src/com/rock/model/UserInfo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java8/src/main/java/com/rock/java8/model/Employee.java" afterPath="$PROJECT_DIR$/java8/src/main/java/com/rock/model/Employee.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java8/src/main/java/com/rock/java8/model/Status.java" afterPath="$PROJECT_DIR$/java8/src/main/java/com/rock/model/Status.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java8/src/main/java/com/rock/java8/model/Trader.java" afterPath="$PROJECT_DIR$/java8/src/main/java/com/rock/model/Trader.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java8/src/main/java/com/rock/java8/model/Transaction.java" afterPath="$PROJECT_DIR$/java8/src/main/java/com/rock/model/Transaction.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java8/src/main/java/com/rock/java8/model/UserInfo.java" afterPath="$PROJECT_DIR$/java8/src/main/java/com/rock/model/UserInfo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mybatisdemo/src/main/java/com/rock/java8/model/User.java" afterPath="$PROJECT_DIR$/mybatisdemo/src/main/java/com/rock/model/User.java" />
-    </list>
+    <list default="true" id="ad153028-c295-45e1-b215-4ec5af4f1b2a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/annotations/target/" />
     <ignored path="$PROJECT_DIR$/java8/target/" />
     <ignored path="$PROJECT_DIR$/mybatisdemo/target/" />
@@ -155,8 +102,8 @@
       <file leaf-file-name="TestLambda1.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java8/src/main/java/com/rock/java8/lambda/TestLambda1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+            <state relative-caret-position="374">
+              <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -874,7 +821,7 @@
       <workItem from="1504407327392" duration="63000" />
       <workItem from="1504407441815" duration="2126000" />
       <workItem from="1506123739930" duration="26000" />
-      <workItem from="1514090233627" duration="902000" />
+      <workItem from="1514090233627" duration="942000" />
     </task>
     <task id="LOCAL-00001" summary="lambda &amp; stream api">
       <created>1502589052080</created>
@@ -919,7 +866,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10293000" />
+    <option name="totallyTimeSpent" value="10333000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1226,8 +1173,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java8/src/main/java/com/rock/java8/lambda/TestLambda1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        <state relative-caret-position="374">
+          <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
           <folding />
         </state>
       </provider>
