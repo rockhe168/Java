@@ -1,6 +1,6 @@
 package com.rock.java8.lambda;
 
-import com.rock.java8.model.Employee;
+import com.rock.model.Employee;
 
 /**
  * Created by 何湘红[499233529@qq.com] on 2017/8/12 0012.

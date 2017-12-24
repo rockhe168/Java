@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.rock.dao.UserDao">
 
-    <resultMap id="UserBaseMap" type="com.rock.java8.model.User">
+    <resultMap id="UserBaseMap" type="com.rock.model.User">
         <id column="id" property="id" jdbcType="BIGINT"/>
         <result column="user_name" property="userName" jdbcType="VARCHAR"/>
         <result column="user_phone" property="userPhone" jdbcType="VARCHAR"/>

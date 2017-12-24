@@ -1,6 +1,6 @@
 package com.rock.java8.lambda;
 
-import com.rock.java8.model.Employee;
+import com.rock.model.Employee;
 import org.junit.Test;
 
 import java.util.ArrayList;

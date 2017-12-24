@@ -3,13 +3,16 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/annotations/annotations.iml" filepath="$PROJECT_DIR$/annotations/annotations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/collection/collection.iml" filepath="$PROJECT_DIR$/collection/collection.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrency/concurrency.iml" filepath="$PROJECT_DIR$/concurrency/concurrency.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exception/exception.iml" filepath="$PROJECT_DIR$/exception/exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/generics/generics.iml" filepath="$PROJECT_DIR$/generics/generics.iml" />
       <module fileurl="file://$PROJECT_DIR$/io/io.iml" filepath="$PROJECT_DIR$/io/io.iml" />
       <module fileurl="file://$PROJECT_DIR$/java8/java8.iml" filepath="$PROJECT_DIR$/java8/java8.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatisdemo/mybatisdemo.iml" filepath="$PROJECT_DIR$/mybatisdemo/mybatisdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/nio/nio.iml" filepath="$PROJECT_DIR$/nio/nio.iml" />
       <module fileurl="file://$PROJECT_DIR$/oop/oop.iml" filepath="$PROJECT_DIR$/oop/oop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reflect/reflect.iml" filepath="$PROJECT_DIR$/reflect/reflect.iml" />
     </modules>
   </component>
 </project>

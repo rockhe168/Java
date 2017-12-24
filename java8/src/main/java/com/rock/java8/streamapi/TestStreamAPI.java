@@ -3,8 +3,7 @@ package com.rock.java8.streamapi;
 import java.util.*;
 import java.util.stream.Stream;
 
-import com.rock.java8.model.Employee;
-import com.rock.java8.model.Status;
+import com.rock.model.Employee;
 import org.junit.Test;
 
 /*

@@ -7,8 +7,8 @@ import java.util.Optional;
 import java.util.stream.Stream;
 
 
-import com.rock.java8.model.Trader;
-import com.rock.java8.model.Transaction;
+import com.rock.model.Trader;
+import com.rock.model.Transaction;
 import org.junit.Before;
 import org.junit.Test;
 

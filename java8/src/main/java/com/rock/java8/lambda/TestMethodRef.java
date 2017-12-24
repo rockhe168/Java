@@ -8,7 +8,7 @@ import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Supplier;
 
-import com.rock.java8.model.Employee;
+import com.rock.model.Employee;
 import org.junit.Test;
 
 /*

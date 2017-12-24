@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
 
-import com.rock.java8.model.Employee;
+import com.rock.model.Employee;
 import org.junit.Test;
 
 /*

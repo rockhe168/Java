@@ -1,6 +1,6 @@
 package com.rock.service;
 
-import com.rock.java8.model.User;
+import com.rock.model.User;
 
 import java.util.List;
 

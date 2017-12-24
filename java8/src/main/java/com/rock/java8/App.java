@@ -1,6 +1,6 @@
 package com.rock.java8;
 
-import com.rock.java8.model.UserInfo;
+import com.rock.model.UserInfo;
 
 import java.util.Optional;
 

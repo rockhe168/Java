@@ -1,6 +1,6 @@
 package com.rock.dao;
 
-import com.rock.java8.model.User;
+import com.rock.model.User;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 

@@ -5,8 +5,8 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Stream;
 
-import com.rock.java8.model.Employee;
-import com.rock.java8.model.Status;
+import com.rock.model.Employee;
+import com.rock.model.Status;
 import org.junit.Test;
 
 /*

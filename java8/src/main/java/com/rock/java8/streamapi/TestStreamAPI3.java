@@ -9,8 +9,8 @@ import java.util.Optional;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import com.rock.java8.model.Employee;
-import com.rock.java8.model.Status;
+import com.rock.model.Employee;
+import com.rock.model.Status;
 import org.junit.Test;
 
 
